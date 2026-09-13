@@ -36,7 +36,8 @@ def caesar_cipher(text, shift, mode):
 
     return result
 
-text = input('Enter text: ')
-shift = get_shift()
-mode = get_mode()
-print(caesar_cipher(text, shift, mode))
+if __name__ == '__main__':
+    text = input('Enter text: ')
+    shift = get_shift()
+    mode = get_mode()
+    print(caesar_cipher(text, shift, mode))
